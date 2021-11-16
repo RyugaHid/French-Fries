@@ -1,0 +1,18 @@
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer40 {
+    height: 40px;
+    width: 100%;
+}
+
+@media (max-width:500px) {
+    .spacer60 {
+        display: none;
+    }
+    .spacer40 {
+        display: none;
+    }
+}
